@@ -1,0 +1,26 @@
+{
+  "name": "crm_analytics",
+  "version": "1.0.0",
+  "description": "fullstack app angular and express for bussines and home use",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mogrima"
+  },
+  "author": "Mogrima",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0"
+  }
+}
